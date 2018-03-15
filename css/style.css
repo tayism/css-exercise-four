@@ -1,4 +1,47 @@
+/* for mobile phones first
+@media screen and (min-width: 575px){
+   div {
+    margin: 1%;
+    width: 48%;
+  }
+}
+*/
+
+/* for desktop */
 body {
   background-color: #dadada;
-  font-size: 10px;
+  font-size: 16px;
 }
+
+.container {
+  padding: 50px;
+}
+
+.baku, .london, .madrid, .rome {
+  padding: 10px;
+  float: left;
+  display: inline-block;
+}
+
+h1 {
+  position: absolute;
+  text-align: left;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 15px;
+  display: inline-block;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 2em;
+  padding: 15px;
+}
+/*
+div {
+  float: left;
+  margin: 10px 1% 0 1%;
+  height: 200px;
+  width: 30%;
+}
+*/
